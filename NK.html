@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>أسيل | Computer Science Student</title>
+
+<meta name="description" content="موقع شخصي لأسيل، طالبة علوم حاسب، لعرض المهارات والمشاريع في تطوير الويب.">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  background: #0f0f0f;
+  color: #eaeaea;
+}
+
+header {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #2e0050, #4b0082);
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  opacity: 0.9;
+}
+
+header .btn {
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #1c0033;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #7a1fff;
+}
+
+section {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #1a1a1a;
+  border-radius: 15px;
+}
+
+h2 {
+  color: #9b30ff;
+}
+
+.skills span {
+  display: inline-block;
+  background: #3b0070;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 6px;
+  font-size: 0.95em;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.project {
+  background: #242424;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.project a {
+  color: #9b30ff;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(45deg, #4b0082, #9b30ff);
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.social a {
+  margin: 0 10px;
+  font-size: 1.6em;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #1c0033;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>أسيل</h1>
+  <p>Computer Science Student | Front-End Developer</p>
+
+  <a href="#projects" class="btn">مشاريعي</a>
+  <a href="cv.pdf" class="btn" download>تحميل السيرة الذاتية</a>
+
+  <div class="social">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">عنّي</a>
+  <a href="#skills">المهارات</a>
+  <a href="#projects">المشاريع</a>
+  <a href="#contact">تواصل</a>
+</nav>
+
+<section id="about">
+  <h2>عنّي</h2>
+  <p>
+    أنا أسيل، طالبة علوم حاسب مهتمة بتطوير الويب وبناء مواقع حديثة
+    باستخدام تقنيات الواجهة الأمامية. أحب التعلّم المستمر وتحويل
+    الأفكار إلى مواقع فعلية.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>المهارات</h2>
+  <div class="skills">
+    <span>HTML5</span>
+    <span>CSS3</span>
+    <span>JavaScript (Basics)</span>
+    <span>Responsive Design</span>
+    <span>Git & GitHub</span>
+    <span>Problem Solving</span>
+    <span>UI Design Basics</span>
+    <span>Debugging</span>
+    <span>Teamwork</span>
+    <span>Self Learning</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>المشاريع</h2>
+
+  <div class="projects">
+    <div class="project">
+      <h3>الموقع الشخصي</h3>
+      <p>موقع احترافي لعرض المهارات والمعلومات الشخصية.</p>
+      <a href="#">عرض المشروع</a>
+    </div>
+
+    <div class="project">
+      <h3>نموذج تواصل</h3>
+      <p>نموذج تفاعلي باستخدام JavaScript.</p>
+      <a href="#">عرض المشروع</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>تواصل معي</h2>
+  <p>📧 Email: aseelfd1010@gmail.com</p>
+  <p>📍 Saudi Arabia</p>
+</section>
+
+<footer>
+  © 2026 — Asil Portfolio
+</footer>
+
+</body>
+</html>
